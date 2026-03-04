@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ikram Baskad — Full-Stack Engineer</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">IB</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shape"></div>
+    <div class="hero-content">
+      <div class="hero-image-wrap">
+        <div class="hero-image-bg"></div>
+        <img src="hero-img.jpg" alt="Ikram Baskad" class="hero-img" id="hero-img"/>
+        <div class="hero-image-border"></div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-greeting reveal-up">Hi, I'm</p>
+        <h1 class="hero-name reveal-up delay-1">Ikram<br/><em>Baskad</em></h1>
+        <p class="hero-role reveal-up delay-2">Full-Stack Software Engineer</p>
+        <p class="hero-bio reveal-up delay-3">Software Engineering student at Cardiff Metropolitan University, building elegant full-stack solutions with Java, Spring Boot, Python & Flutter.</p>
+        <div class="hero-actions reveal-up delay-4">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials reveal-up delay-5">
+          <a href="https://github.com/ikram-baskad" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/ikram-baskad-8b6aa2307/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:ikrambaskad@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">About Me</div>
+      <div class="about-grid">
+        <div class="about-left reveal-left">
+          <h2 class="section-title">Crafting Digital<br/><em>Experiences</em></h2>
+          <p class="about-text">I'm a Software Engineering student specializing in full-stack development, passionate about building systems that are both functional and beautifully designed.</p>
+          <p class="about-text">With hands-on experience across the entire stack from Spring Boot APIs to Flutter mobile apps  I bring ideas to life through clean, efficient code.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="3">0</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="3">0</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="6">0</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="education-card">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-content">
+              <h3>Cardiff Metropolitan University</h3>
+              <p>Software Engineering Degree</p>
+              <span>Oct 2024 – Present</span>
+            </div>
+          </div>
+          <div class="education-card">
+            <div class="edu-icon"><i class="fas fa-university"></i></div>
+            <div class="edu-content">
+              <h3>SIST British Education</h3>
+              <p>Foundation Year – Business Management</p>
+              <span>Oct 2023 – May 2024</span>
+            </div>
+          </div>
+          <div class="education-card">
+            <div class="edu-icon"><i class="fas fa-school"></i></div>
+            <div class="edu-content">
+              <h3>Atlas Alkabir High School</h3>
+              <p>Baccalaureate – Physical Sciences</p>
+              <span>Sep 2020 – Jun 2023</span>
+            </div>
+          </div>
+          <div class="lang-grid">
+            <div class="lang-item"><span class="lang-name">English</span><span class="lang-level advanced">Advanced</span></div>
+            <div class="lang-item"><span class="lang-name">Arabic</span><span class="lang-level native">Native</span></div>
+            <div class="lang-item"><span class="lang-name">French</span><span class="lang-level conv">Conversational</span></div>
+            <div class="lang-item"><span class="lang-name">Amazigh</span><span class="lang-level native">Native</span></div>
+            <div class="lang-item"><span class="lang-name">Spanish</span><span class="lang-level conv">Conversational</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">Technical Skills</div>
+      <h2 class="section-title centered reveal-up">My <em>Toolkit</em></h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal-up delay-1">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>Java</span><span>JavaScript</span><span>Dart</span>
+          </div>
+        </div>
+        <div class="skill-card reveal-up delay-2">
+          <div class="skill-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span>Spring Boot</span><span>Java</span><span>Python</span><span>MySQL</span><span>REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-card reveal-up delay-3">
+          <div class="skill-icon"><i class="fas fa-palette"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-card reveal-up delay-1">
+          <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Mobile</h3>
+          <div class="skill-tags">
+            <span>Flutter</span><span>Dart</span><span>Android Studio</span>
+          </div>
+        </div>
+        <div class="skill-card reveal-up delay-2">
+          <div class="skill-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>GitHub</span><span>VS Code</span><span>Eclipse</span>
+          </div>
+        </div>
+        <div class="skill-card reveal-up delay-3">
+          <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Concepts</h3>
+          <div class="skill-tags">
+            <span>OOP</span><span>Agile</span><span>DB Design</span><span>DSA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title centered reveal-up">Featured <em>Work</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal-up delay-1">
+          <div class="project-number">01</div>
+          <div class="project-header">
+            <h3>E-Commerce Web Application</h3>
+            <span class="project-date">Dec 2025 – Jan 2026</span>
+          </div>
+          <p class="project-desc">Full-stack e-commerce platform with product browsing, shopping cart, and checkout. Features user authentication, order processing, and real-time cart updates with dynamic filtering.</p>
+          <div class="project-tech">
+            <span>Java</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+          </div>
+          <div class="project-highlights">
+            <div class="highlight"><i class="fas fa-check"></i> Full backend with Java & MySQL</div>
+            <div class="highlight"><i class="fas fa-check"></i> Responsive frontend</div>
+            <div class="highlight"><i class="fas fa-check"></i> Real-time cart updates</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up delay-2">
+          <div class="project-number">02</div>
+          <div class="project-header">
+            <h3>Human Resource Application</h3>
+            <span class="project-date">Nov 2025 – Jan 2026</span>
+          </div>
+          <p class="project-desc">Cross-platform mobile HR management system. Built with Flutter for a smooth UI and Spring Boot REST APIs for robust business logic with role-based access control.</p>
+          <div class="project-tech">
+            <span>Flutter</span><span>Dart</span><span>Spring Boot</span><span>MySQL</span>
+          </div>
+          <div class="project-highlights">
+            <div class="highlight"><i class="fas fa-check"></i> Cross-platform mobile app</div>
+            <div class="highlight"><i class="fas fa-check"></i> REST API with Spring Boot</div>
+            <div class="highlight"><i class="fas fa-check"></i> Role-based access control</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up delay-3">
+          <div class="project-number">03</div>
+          <div class="project-header">
+            <h3>Academic Events Website</h3>
+            <span class="project-date">Apr 2025 – May 2025</span>
+          </div>
+          <p class="project-desc">Dynamic website for managing university academic events with a full registration system, admin panel, and responsive design compatible across all devices.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+          </div>
+          <div class="project-highlights">
+            <div class="highlight"><i class="fas fa-check"></i> Event registration system</div>
+            <div class="highlight"><i class="fas fa-check"></i> Admin dashboard</div>
+            <div class="highlight"><i class="fas fa-check"></i> Responsive design</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label">Experience</div>
+      <h2 class="section-title centered reveal-up">My <em>Journey</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Nov 2025 – Present</span>
+            <h3>Teaching Assistant</h3>
+            <p class="timeline-company">British Language Center · Bouskoura, Morocco</p>
+            <p>Support instructors in delivering lessons and managing classroom activities. Collaborate with teaching team to develop materials and track student progress.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jun 2025 – Aug 2025</span>
+            <h3>Reservations Intern</h3>
+            <p class="timeline-company">Intrepid Travel Morocco · Marrakech, Morocco</p>
+            <p>Managed reservation systems to enhance customer satisfaction. Collaborated with sales team to align processes with business objectives.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jun 2024 – Aug 2024</span>
+            <h3>Admissions Intern</h3>
+            <p class="timeline-company">Coventry University · Bouskoura, Morocco</p>
+            <p>Presented university programs to prospective students and visitors. Managed administrative workflows and maintained accurate records.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jun 2023 – Present</span>
+            <h3>Ambassador</h3>
+            <p class="timeline-company">EFA Association · Marrakech, Morocco</p>
+            <p>Represented the association at official events with the British Embassy. Organized ticket sales for university events and promoted association initiatives.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Dec 2023 – Present</span>
+            <h3>Volunteer Member</h3>
+            <p class="timeline-company">Polaris Charity · Casablanca, Morocco</p>
+            <p>Contribute to charitable initiatives and community outreach programs. Collaborate with team to organize and support charity events.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="certs section">
+    <div class="container">
+      <div class="section-label">Certifications</div>
+      <h2 class="section-title centered reveal-up">Continuous <em>Learning</em></h2>
+      <div class="certs-grid">
+        <div class="cert-card reveal-up delay-1">
+          <div class="cert-logo"><i class="fab fa-microsoft"></i></div>
+          <h3>Career Essentials in Software Development</h3>
+          <p>Microsoft · Jul 2025</p>
+        </div>
+        <div class="cert-card reveal-up delay-2">
+          <div class="cert-logo"><i class="fab fa-linkedin"></i></div>
+          <h3>Learning Git and GitHub</h3>
+          <p>LinkedIn Learning · Jul 2025</p>
+        </div>
+        <div class="cert-card reveal-up delay-3">
+          <div class="cert-logo"><i class="fab fa-linkedin"></i></div>
+          <h3>HTML, CSS, JavaScript: Building the Web</h3>
+          <p>LinkedIn Learning · Jul 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title centered reveal-up">Let's <em>Connect</em></h2>
+      <p class="contact-sub reveal-up delay-1">I'm currently seeking full-stack software engineering internship opportunities. Let's build something great together.</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <a href="mailto:ikrambaskad@gmail.com" class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">ikrambaskad@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+212 708 860 890" class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+212 708 860 890</span>
+            </div>
+          </a>
+          <a href="https://github.com/ikram-baskad" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">ikram-baskad</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/ikram-baskad-8b6aa2307/" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">ikram baskad</span>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form reveal-right" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div class="form-success" id="form-success">Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 Ikram Baskad. Designed with passion.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/ikram-baskad" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ikram-baskad-8b6aa2307/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ikrambaskad@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
